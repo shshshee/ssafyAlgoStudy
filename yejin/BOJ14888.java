@@ -21,7 +21,7 @@ public class Main {
 		}
 	}
 	
-	// 모든 경우의 수를 구한다. 현재 피연산자 arr[idx] 와 arr[idx+1]을 계산하여 result에 더한뒤 다음으로 넘어간다.
+	// 모든 경우의 수를 구한다. 현재 피연산자 arr[idx] 와 arr[idx+1]을 계산하여 ans에 더한뒤 다음으로 넘어간다.
 	public static void solve(int[] arr, int[] operator, int idx, int ans) { 
 		if(idx == n) { // 마지막까지 연산 완료
 			max = Math.max(ans, max);
@@ -33,7 +33,7 @@ public class Main {
 			if(operator[i] > 0) {
 				operator[i]--; // i번째 연산자를 사용
 				solve(arr, operator, idx+1,  getResult(ans, arr[idx], i));
-				operator[i]++;
+				operator[i]++; 
 			}
 		}
 	}
