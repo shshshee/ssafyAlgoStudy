@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class BOJ1769 {
 	static int count = 0;
 	public static int solve(String input) {
 //		System.out.print(input +" => ");
