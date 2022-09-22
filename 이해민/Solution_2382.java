@@ -124,7 +124,7 @@ public class Solution_2382 {
 			}                                       
 			
 			//합치기
-			//우선 순위 큐에 따라 맨 앞의 요소가  방향이 큰 값			
+			//같은 좌표에 대해 우선 순위에 따라 맨 앞의 요소가 큰 값			
  			temp.get(start).value = sum;
 			
 			for (int j = start+1; j <= i; j++) {
