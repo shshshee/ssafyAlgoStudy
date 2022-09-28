@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class Solution_2382 {
 	
-	private static int[][] dir = {{},{-1,0}, {1,0},{0,-1},{0,1}};//상하좌우
+	private static int[][] dir = {{0, 0},{-1,0}, {1,0},{0,-1},{0,1}};//상하좌우
 	private static int result;
 	private static LinkedList<Pair> locations;
 	
@@ -31,8 +31,18 @@ public class Solution_2382 {
 			if(this.x==o.x && this.y == o.y) {
 				return -(this.value - o.value);
 			}
+			if(this.x == o.x) 
+				return this.y - o.y;
+			
 			return this.x - o.x;
 		}
+
+		@Override
+		public String toString() {
+			return "Pair [x=" + x + ", y=" + y + ", value=" + value + ", move_dir=" + move_dir + "]";
+		}
+		
+		
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -53,7 +63,7 @@ public class Solution_2382 {
 				int y = Integer.parseInt(st.nextToken());
 				int size = Integer.parseInt(st.nextToken());
 				int direction = Integer.parseInt(st.nextToken());
-				//locations.add(new Pair(x, y, size, direction));
+
 				locations.add(new Pair(x, y, size, direction));
 			}
 			solve(M, N);
@@ -70,9 +80,8 @@ public class Solution_2382 {
 	private static void solve(int M, int N) {
 		//Queue<Pair> temp = new LinkedList<Pair>();
 		while(M-- > 0) {
-			LinkedList<Pair> temp = new LinkedList<Pair>();
+
 			for (int i = 0; i < locations.size(); i++) {
-				
 				Pair now = locations.get(i);
 				int nowX = now.x;
 				int nowY = now.y;
@@ -83,50 +92,58 @@ public class Solution_2382 {
 				int nextY = nowY + dir[nowDir][1];
 				int nextDir = 0;
 				
-				if(nextX == 0 || nextY == 0 || nextX == N-1 || nextY == N-1) {//약품이 칠해진 구역(가장 자리의 빨간 셀)
+				if(nextX == 0 || nextY == 0 || nextX >= N-1 || nextY >= N-1) {//약품이 칠해진 구역(가장 자리의 빨간 셀)
 					if(nowDir == 1) nextDir = 2;
 					else if(nowDir == 2) nextDir = 1;
 					else if(nowDir == 3) nextDir = 4;
 					else nextDir = 3;
 					
-					if(nowValue/2 <= 1) {//미생물 죽음 
+					now.move_dir = nextDir;
+					now.value /= 2;
+					
+					if(now.value <= 0) {//미생물 죽음 
 						locations.remove(i);
 						i--;
-						continue;
+					}else {
+						now.x = nextX;
+						now.y = nextY;
 					}
-					temp.add(new Pair(nextX, nextY, nowValue/2, nextDir));
-					continue;
+				}else {	
+					now.x = nextX;
+					now.y = nextY;
 				}
-				temp.add(new Pair(nextX, nextY, nowValue, nowDir));
+				
 			} 
 		
-			Collections.sort(temp);
+			Collections.sort(locations);
 			
-			locations.clear();
 			//합쳐지는 미생물 처리하기 
-			locations = combine(temp);
+			combine(locations);
+			
 		}
+		
 		result = count(locations);
 	}
 	
 	//합쳐지는 미생물 처리하기
-	//합쳐지는 미생물의 개수가 3개 이상인 경우 ??->이 중에서 가장 세포가 많은 군집의 방향으로 
-	private static LinkedList<Pair> combine(LinkedList<Pair> temp) {
+	//같은 좌표에 대해 미생물 개수를 기준으로 내림차순-> 맨 앞의 좌표가 가장 개수가 크므로, 방향은 맨 앞을 기준으로 따름
+	private static void combine(LinkedList<Pair> temp) {
 		
-		for (int i = 0; i < temp.size()-1; i++) {
+		for (int i = 0; i < temp.size(); i++) {
 			
 			int sum = temp.get(i).value;
 			int start = i;
 			//같은 좌표  미생물 찾기
-			while(i+1 < temp.size() - 1 && temp.get(i).x == temp.get(i+1).x && temp.get(i).y == temp.get(i+1).y) {
+			while(i+1 < temp.size() && temp.get(i).x - temp.get(i+1).x == 0  && temp.get(i).y - temp.get(i+1).y == 0) {
 				sum += temp.get(i+1).value;
 				i++;
 			}                                       
 			
 			//합치기
-			//같은 좌표에 대해 우선 순위에 따라 맨 앞의 요소가 큰 값			
+			//우선 순위에 따라 맨 앞의 요소가  방향이 큰 값이므로 방향에 대한 수정은 필요 X			
  			temp.get(start).value = sum;
-			
+ 			
+ 			
 			for (int j = start+1; j <= i; j++) {
 				temp.remove(j);
 				i--;
@@ -135,7 +152,6 @@ public class Solution_2382 {
 
 		}
 			
-		return temp;
 	}
 	
 	private static int count(LinkedList<Pair> temp) {
