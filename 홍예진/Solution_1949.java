@@ -17,8 +17,6 @@ public class Solution {
 	}
 
 	// 현재 좌표가 최대 값에 영향을 미치는 경우 -> 봉우리에서 시작하는 흐름에 영향을 끼칠 때
-	// isDescending : true => 현재 포인트에서 내림차순으로 도달 가능한 최대 거리
-	// isDescending : false => 현재 포인트에서 오름차순으로 도달 가능한 최대 거리
 	public static int dfs(Point p) {
 		int max = 1;
 		for (int d[] : delta) {
@@ -40,8 +38,7 @@ public class Solution {
 			ans = Math.max(ans, dfs(t));
 		}
 
-		// 가장 높은 자리에서 내림차, 딱 한 곳을 최대 k만큼 깎을 수 있다.
-		// 64개 좌표를 1~k개 깎고 각 좌표를 포함하는 최대 경로를 찾는다.
+		// 가장 높은 자리에서 내림차, 딱 한 곳을 최대 k만큼 깎을 수 있다
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
 				Point p = new Point(i, j);
