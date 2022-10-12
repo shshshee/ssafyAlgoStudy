@@ -17,7 +17,7 @@ public class Solution {
 		Point hall = wormhall[map[i][j] - 6];
 		return new Point(hall.i - i, hall.j - j);
 	}
-
+  
 	// i,j에서 출발했을 때 얻을 수 있는 점수
 	public static int start(int i, int j, int dir) {
 //		System.out.println("시작점 : " + i + ", " + j + " (" + dir + ")");
@@ -60,6 +60,7 @@ public class Solution {
 				for (int dir = 0; dir < 4; dir++) {
 					if (map[i][j] == 0) {
 						ans = Math.max(start(i, j, dir), ans);
+
 					}
 				}
 			}
@@ -122,11 +123,10 @@ class Point {
 		this.j = j;
 		this.dir = dir;
 	}
-
+  
 	@Override
 	public String toString() {
 		return "Point [i=" + i + ", j=" + j + ", dir=" + dir + "]";
 	}
-	
 	
 }
