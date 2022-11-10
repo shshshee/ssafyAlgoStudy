@@ -5,7 +5,7 @@
 
 SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.com/main/talk/solvingClub/clubView.do?solveclubId=AYLzCd9qnSYDFATf)
 
-팀 노션 : [알고리즘 스터디]https://aware-energy-8fb.notion.site/c249a1f5c2c249ca9768b9e1c2a24c70)
+팀 노션 : [알고리즘 스터디](https://aware-energy-8fb.notion.site/c249a1f5c2c249ca9768b9e1c2a24c70)
 ## 🏷 11월 스터디 계획
 - 매주 공통으로 푸는 문제 1개 선정
   - 해당 문제는 스터디 날에 리뷰
