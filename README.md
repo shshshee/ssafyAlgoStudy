@@ -17,9 +17,10 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 ## 💡 11월 스터디 진행도
 
 #### 👩‍👦‍👦 참가자
-|김세희|이광용|이해민|홍예진|황예은|
-|-----|-----|-----|-----|-----|
-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
+|주차|김세희|이광용|이해민|홍예진|황예은|
+|-----|-----|-----|-----|-----|-----|
+|-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
+|2|O|X|X|O|X|
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
