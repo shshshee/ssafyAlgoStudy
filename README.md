@@ -20,14 +20,14 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |주차|김세희|이광용|이해민|홍예진|황예은|
 |-----|-----|-----|-----|-----|-----|
 |-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
-|2|O|X|X|O|X|
+|2주차|O|X|X|O|X|
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
 |:---:|---|---|
-|1주차(22.10.29 - 22.11.05)|BOJ|[1253번 좋다](https://www.acmicpc.net/problem/1253)
-|2주차(22.11.05 - 22.11.12)|BOJ|[2805번 나무 자르기](https://www.acmicpc.net/problem/2805)
-|3주차(22.11.12 - 22.11.19)|-|-|
+|1주차(22.10.29 - 22.11.05)|BOJ|[1253번 좋다](https://www.acmicpc.net/problem/1253)|
+|2주차(22.11.05 - 22.11.12)|BOJ|[2805번 나무 자르기](https://www.acmicpc.net/problem/2805)|
+|3주차(22.11.12 - 22.11.19)|BOJ|[21921번 블로그](https://www.acmicpc.net/problem/21921)|
 |4주차(22.11.19 - 22.11.26)|-|-|
 
 #### ✏ 개인 풀이 문제 : 11월 2주차(22.11.05 - 22.11.12)
