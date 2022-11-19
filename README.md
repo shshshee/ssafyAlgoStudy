@@ -21,6 +21,7 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |-----|-----|-----|-----|-----|-----|
 |-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
 |2주차|O|X|X|O|X|
+|3주차|O|O|X|O|X|
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
@@ -29,6 +30,15 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |2주차(22.11.05 - 22.11.12)|BOJ|[2805번 나무 자르기](https://www.acmicpc.net/problem/2805)|
 |3주차(22.11.12 - 22.11.19)|BOJ|[21921번 블로그](https://www.acmicpc.net/problem/21921)|
 |4주차(22.11.19 - 22.11.26)|-|-|
+
+#### ✏ 개인 풀이 문제 : 11월 3주차(22.11.12 - 22.11.19)
+|풀이자|사이트|문제|
+|---|---|---|
+|김세희|BOJ|[1965번 상자넣기](https://www.acmicpc.net/problem/1965)|
+|이광용|BOJ|[4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|
+|이해민|-|개인 풀이 X|
+|홍예진|-|개인 풀이 X|
+|황예은|-|개인 풀이 X|
 
 #### ✏ 개인 풀이 문제 : 11월 2주차(22.11.05 - 22.11.12)
 |풀이자|사이트|문제|
