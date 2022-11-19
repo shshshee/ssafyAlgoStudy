@@ -29,7 +29,7 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |1주차(22.10.29 - 22.11.05)|BOJ|[1253번 좋다](https://www.acmicpc.net/problem/1253)|
 |2주차(22.11.05 - 22.11.12)|BOJ|[2805번 나무 자르기](https://www.acmicpc.net/problem/2805)|
 |3주차(22.11.12 - 22.11.19)|BOJ|[21921번 블로그](https://www.acmicpc.net/problem/21921)|
-|4주차(22.11.19 - 22.11.26)|-|-|
+|4주차(22.11.19 - 22.11.26)|SWEA|[2105번 디저트카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu)|
 
 #### ✏ 개인 풀이 문제 : 11월 3주차(22.11.12 - 22.11.19)
 |풀이자|사이트|문제|
