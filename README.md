@@ -33,13 +33,13 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 |4주차(22.11.19 - 22.11.26)|SWEA|[2105번 디저트카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu)|
 
 #### ✏ 개인 풀이 문제 : 
-|풀이자|사이트|1주차<br/>(22.10.29 - 22.11.05)|사이트|2주차<br/>(22.11.05 - 22.11.12)|사이트|3주차<br/>(22.11.12 - 22.11.19)|사이트|4주차<br/>(22.11.19 - 22.11.26)|
-|---|---|---|---|---|---|---|---|---|
-|김세희|BOJ|[10836번 여왕벌](https://www.acmicpc.net/problem/10836)|BOJ|[2186번 문자판](https://www.acmicpc.net/problem/2186)|BOJ|[1965번 상자넣기](https://www.acmicpc.net/problem/1965)|-|개인 풀이 X|
-|이광용|-|개인 풀이 X|-|개인 풀이 X|BOJ|[4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|SWEA|[1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq), [2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
-|이해민|SWEA|[1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|SWEA|[1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|-|개인 풀이 X|-|개인 풀이 X|
-|홍예진|-|개인일정으로 휴일|BOJ|[1629번 곱셉](https://www.acmicpc.net/problem/1626)|-|개인 풀이 X|-|개인 풀이 X|
-|황예은|-|개인 풀이 X|-|개인 풀이 X|-|개인 풀이 X|-|개인 풀이 X|
+|풀이자|1주차<br/>(22.10.29 - 22.11.05)|2주차<br/>(22.11.05 - 22.11.12)|3주차<br/>(22.11.12 - 22.11.19)|4주차<br/>(22.11.19 - 22.11.26)|
+|---|---|---|---|---|
+|김세희|[BOJ 10836번 여왕벌](https://www.acmicpc.net/problem/10836)|[BOJ 2186번 문자판](https://www.acmicpc.net/problem/2186)|[BOJ 1965번 상자넣기](https://www.acmicpc.net/problem/1965)|개인 풀이 X|
+|이광용|개인 풀이 X|개인 풀이 X|[BOJ 4963번 섬의 개수](https://www.acmicpc.net/problem/4963)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq),<br/>[SWEA 2112번 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)|
+|이해민|[SWEA 1486번 장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)|[SWEA 1949번 등산로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq)|개인 풀이 X|개인 풀이 X|
+|홍예진|개인일정으로 휴일|[BOJ 1629번 곱셉](https://www.acmicpc.net/problem/1626)|개인 풀이 X|개인 풀이 X|
+|황예은|개인 풀이 X|개인 풀이 X|개인 풀이 X|개인 풀이 X|
 
 
 ## 💡 10월 스터디 결과
