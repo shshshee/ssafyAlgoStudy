@@ -16,12 +16,13 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 
 ## 💡 11월 스터디 결과
 
-#### 👩‍👦‍👦 참가자
-|주차|김세희|이광용|이해민|홍예진|황예은|
-|-----|-----|-----|-----|-----|-----|
-|-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)|
-|2주차|O|X|X|O|X|
-|3주차|O|O|X|O|X|
+#### 👩‍👦‍👦 참가자 및 공통문제 문제풀이 성공 여부
+|주차|김세희|이광용|이해민|홍예진|황예은|--비고|
+|-----|-----|-----|-----|-----|-----|-----|
+|-|[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
+|2주차|O|X|X|O|X||
+|3주차|O|O|X|O|X||
+|4주차|O|||O|X|4주차는 최종 프로젝트 마무리<br/>및 코딩테스트으로 스터디 휴식|
 
 #### ✒ 공통 풀이 문제
 |주차|사이트|문제|
