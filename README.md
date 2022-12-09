@@ -14,6 +14,33 @@ SWEA 클럽 : [8기 광주4반 알고리즘 스터디](https://swexpertacademy.c
 
 #### 참고 문제집 : [IT기업 및 대기업 계열사 코테보면서 비슷했던 문제들(지속적으로 업데이트 중)](https://www.acmicpc.net/workbook/view/8708)
 
+## 💡 12월 스터디 진행도
+|주차|김세희|이광용|이해민|홍예진|황예은|--비고|
+|-----|-----|-----|-----|-----|-----|-----|
+||[@shshshee](https://github.com/shshshee)|[@encoreKwang](https://github.com/encoreKwang)|[@leepeace](https://github.com/leepeace)|[@YeJinHong](https://github.com/YeJinHong)|[@ise-yen](https://github.com/ise-yen)||
+|1주차|O|O|O|O|O||
+|2주차| | | | | | |
+|3주차| | | | | | |
+|4주차| | | | | | |
+
+#### ✒ 공통 풀이 문제
+|주차|사이트|문제|
+|:---:|---|---|
+|1주차(22.11.26 - 22.12.03)|-|-|
+|2주차(22.12.03 - 22.12.10)|BOJ|[14658번 하늘에서 별똥별이 빗발친다](https://www.acmicpc.net/problem/14658)|
+|3주차(22.12.10 - 22.12.17)| |[번 ]()|
+|4주차(22.12.17 - 22.12.24)| |[번 ]()|
+
+#### ✏ 개인 풀이 문제 : 
+|풀이자|1주차<br/>(22.10.29 - 22.11.05)|2주차<br/>(22.11.05 - 22.11.12)|3주차<br/>(22.11.12 - 22.11.19)|4주차<br/>(22.11.19 - 22.11.26)|
+|---|---|---|---|---|
+|김세희|[PRO 피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)||||
+|이광용|[BOJ 18808번 스티커붙이기](https://www.acmicpc.net/problem/18808)||||
+|이해민|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)||||
+|홍예진|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br/>[BOJ 17471번 게리맨더링](https://www.acmicpc.net/problem/17471)||||
+|황예은|[SWEA 나무높이](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AYFofW8qpXYDFAR4)<br/>[SWEA 프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)||||
+
+
 ## 💡 11월 스터디 결과
 
 #### 👩‍👦‍👦 참가자 및 공통문제 문제풀이 성공 여부
